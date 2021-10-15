@@ -20,8 +20,7 @@ Build Standalone
 
 link Releases : 
 
-- https://github.com/MSetiawan2005/Tugas-ImplementasiFirebase/releases/tag/v0.0.1 
-- https://github.com/MSetiawan2005/Tugas-ImplementasiFirebase/releases
+- https://github.com/MSetiawan2005/Tugas-ProblemSolvingChallengee/releases/tag/v0.0.1
 
 
 Unzip > Install > Play
