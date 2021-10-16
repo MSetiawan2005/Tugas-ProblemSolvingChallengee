@@ -4,6 +4,7 @@ public class SpawnManager : MonoBehaviour
 {
    
     public GameObject box;
+    public GameObject enemy;
     public float spawnTime = 3f;
     public Transform[] spawnPoints;
 
@@ -25,6 +26,7 @@ public class SpawnManager : MonoBehaviour
 
        
         Instantiate(box, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+        Instantiate(enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
 
     }
 }
