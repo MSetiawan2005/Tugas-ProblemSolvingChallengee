@@ -1134,6 +1134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   box: {fileID: 8643333531467384585, guid: 0736a36992a21af4790d124d05698555, type: 3}
+  enemy: {fileID: 2130946480334072671, guid: 1a6c676de93149d42895364fe7e627d6, type: 3}
   spawnTime: 3
   spawnPoints:
   - {fileID: 1116644592}
