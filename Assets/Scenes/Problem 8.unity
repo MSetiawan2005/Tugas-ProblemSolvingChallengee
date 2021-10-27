@@ -656,8 +656,8 @@ GameObject:
   - component: {fileID: 577866362}
   - component: {fileID: 577866364}
   - component: {fileID: 577866363}
-  - component: {fileID: 577866365}
   - component: {fileID: 577866366}
+  - component: {fileID: 577866365}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -787,10 +787,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 577866359}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2afb652ccfff124199fd5fd3aaa7137, type: 3}
+  m_Script: {fileID: 11500000, guid: a0b14a4a83f8fb14facdbb7b44bbc157, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreController: {fileID: 2037295321}
+  scorecontroller: {fileID: 2037295321}
 --- !u!114 &577866366
 MonoBehaviour:
   m_ObjectHideFlags: 0

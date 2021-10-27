@@ -18,9 +18,7 @@ public class ScoreController : MonoBehaviour
     {
         score.text = $"Score : { currentScore.ToString("0") }";
 
-       if(currentScore > PlayerPrefs.GetInt("highestscore"))
-        
-            PlayerPrefs.SetInt("highestscore", currentScore);
+       
     }
 
     public void IncreaseCurrentScore(int num)

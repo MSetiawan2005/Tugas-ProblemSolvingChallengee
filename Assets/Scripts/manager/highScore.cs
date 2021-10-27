@@ -13,4 +13,5 @@ public class highScore : MonoBehaviour
         HighestScore.text = $"HI-Score : { PlayerPrefs.GetInt("highestscore").ToString()}";
     }
 
+
 }
