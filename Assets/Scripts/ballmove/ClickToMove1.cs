@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ClickToMove : MonoBehaviour
+public class ClickToMove1 : MonoBehaviour
 {
     private float speed = 4;
 
     private Vector3 targetPosition;
     private bool isMoving = false;
-    public ScoreManager scoreController;
+    public ScoreController scorecontroller;
 
 
 
@@ -52,7 +52,7 @@ public class ClickToMove : MonoBehaviour
     {
         if (collision.gameObject.tag == "Box")
         {
-            scoreController.IncrementCurrentScore(1);
+            scorecontroller.IncreaseCurrentScore(1);
             Destroy(collision.gameObject);
         }
     }

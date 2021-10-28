@@ -17,6 +17,8 @@ public class ScoreController : MonoBehaviour
     private void Update()
     {
         score.text = $"Score : { currentScore.ToString("0") }";
+
+       
     }
 
     public void IncreaseCurrentScore(int num)
