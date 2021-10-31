@@ -607,8 +607,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ada918e748dee048b844c27c5e37512, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xInitialForce: 100
-  yInitialForce: 100
+  xInitialForce: 0
+  yInitialForce: 0
 --- !u!58 &577866363
 CircleCollider2D:
   m_ObjectHideFlags: 0
