@@ -8,7 +8,7 @@ public class ClickToMove : MonoBehaviour
 
     private Vector3 targetPosition;
     private bool isMoving = false;
-    public ScoreManager scoreController;
+    
 
 
 
@@ -48,13 +48,6 @@ public class ClickToMove : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Box")
-        {
-            scoreController.IncrementCurrentScore(1);
-            Destroy(collision.gameObject);
-        }
-    }
+  
 
 }

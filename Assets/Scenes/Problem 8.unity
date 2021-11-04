@@ -658,6 +658,7 @@ GameObject:
   - component: {fileID: 577866363}
   - component: {fileID: 577866366}
   - component: {fileID: 577866365}
+  - component: {fileID: 577866367}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -790,7 +791,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0b14a4a83f8fb14facdbb7b44bbc157, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scorecontroller: {fileID: 2037295321}
 --- !u!114 &577866366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -805,6 +805,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   kecepatan: 5
   gerakan: {x: 0, y: 0}
+--- !u!114 &577866367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577866359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b56d8152b9aa3345a4d68da75dbe46e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Score: {fileID: 2037295321}
 --- !u!1 &736385302
 GameObject:
   m_ObjectHideFlags: 0

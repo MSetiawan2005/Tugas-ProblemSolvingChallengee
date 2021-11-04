@@ -13,7 +13,7 @@ public class BallControl : MonoBehaviour
     // Besarnya gaya awal yang diberikan untuk mendorong bola
     public float xInitialForce;
     public float yInitialForce;
-    
+   
     void ResetBall()
     {
         // Reset posisi menjadi (0,0)
@@ -73,6 +73,8 @@ public class BallControl : MonoBehaviour
     {
         get { return trajectoryOrigin; }
     }
+
+
 
     // Update is called once per frame
     void Update()
