@@ -45,7 +45,10 @@ public class ScoreManager : MonoBehaviour
     public void SetHighScore()
     {
         if (currentScore > highScore)
+        {
             highScore = currentScore;
+        }
+           
     }
 
 
