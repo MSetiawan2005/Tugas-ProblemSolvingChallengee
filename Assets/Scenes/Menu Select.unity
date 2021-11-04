@@ -1368,6 +1368,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1260217541}
+  - component: {fileID: 1260217540}
   m_Layer: 0
   m_Name: Problem Select
   m_TagString: Untagged
@@ -1375,6 +1376,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1260217540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260217539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 263e936c5011e9f4c9fd7e6e5e33d756, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  problem1: {fileID: 872148928}
+  problem2: {fileID: 1869573206}
+  problem3: {fileID: 1185984509}
+  problem4: {fileID: 1830777101}
+  problem5: {fileID: 38939364}
+  problem6: {fileID: 1972516104}
+  problem7: {fileID: 696412852}
+  problem8: {fileID: 774923828}
+  problem9: {fileID: 638214579}
 --- !u!4 &1260217541
 Transform:
   m_ObjectHideFlags: 0
